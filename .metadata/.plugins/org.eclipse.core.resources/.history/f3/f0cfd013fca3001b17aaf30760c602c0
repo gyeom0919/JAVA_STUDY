@@ -1,0 +1,17 @@
+package study;
+
+import java.util.Scanner;
+
+public class exam13 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int dan;
+		dan = sc.nextInt();
+		
+		System.out.print("**** "+ dan + "´Ü ****");
+	}
+
+}

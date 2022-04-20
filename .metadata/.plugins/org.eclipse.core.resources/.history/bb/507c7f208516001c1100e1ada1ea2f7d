@@ -1,0 +1,15 @@
+package study01;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+
+		Car myCar = new Car(tesla, 20);
+		
+		myCar.setGas(10);
+		myCar.setCurrentSpeed(10);
+		myCar.run();
+		
+	}
+
+}

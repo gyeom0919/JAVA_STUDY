@@ -1,0 +1,14 @@
+package sec01.exam01;
+
+public class VariableExam001 {
+
+	public static void main(String[] args) {
+		int x = 0b1100;
+		int y = 014;
+		int z = 0xc;
+		
+		System.out.println(x+""+y+""+z+"");
+
+	}
+
+}

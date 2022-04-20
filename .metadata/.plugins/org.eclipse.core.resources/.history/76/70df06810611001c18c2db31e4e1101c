@@ -1,0 +1,22 @@
+package study01;
+
+public class Car {
+	
+	String company = "Hyundai";
+	String model;
+	int max_spd; //최고속도
+	int cur_spd; //현제속도
+	int gas;
+	
+	Car(String m, int m_s){
+		this.model = m;
+		this.max_spd = m_s;
+	}
+	
+	void set_cs(int i); {
+		cur_spd = i;
+	}
+ 	
+	
+
+}

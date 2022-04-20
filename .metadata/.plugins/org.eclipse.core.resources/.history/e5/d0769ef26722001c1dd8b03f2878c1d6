@@ -1,0 +1,23 @@
+package study05;
+
+public class Song {
+	
+		private String title;
+			
+		Song(String t) {
+			this.title = t;
+		}
+			
+		String get_title() {
+			return title;
+		}
+
+	public static void main(String[] args) {
+	
+			
+
+		}
+
+	}
+
+

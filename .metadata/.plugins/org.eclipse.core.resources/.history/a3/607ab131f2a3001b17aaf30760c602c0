@@ -1,0 +1,23 @@
+package study;
+
+import java.util.Scanner;
+
+public class exam07 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		char munja;
+		
+		switch(a){
+		
+		case("a"||"A"):
+			System.out.println("우수회원입니다.");
+		break;
+		case("b"||"B"):
+			System.out.println("비회원입니다.");
+		}
+	}
+
+}

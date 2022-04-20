@@ -1,0 +1,25 @@
+package sec01.exam01;
+
+public class VariableExam001 {
+
+	public static void main(String[] args) {
+		
+		int x = 0b1100;
+		int y = 014;
+		int z = 0xc;
+		
+		
+		char ch1 = 'A';
+		char ch2 = 97;
+		
+		String str1 = "È«±æµ¿";
+		String str2 = "È«±æµ¿ \n\"¾È³ç\"";
+		
+		float d1 = 1e3;
+		
+		//System.out.println(x+" "+y+" "+z+" ");
+		//System.out.println(ch2);
+		System.out.println(d1);
+	}
+
+}

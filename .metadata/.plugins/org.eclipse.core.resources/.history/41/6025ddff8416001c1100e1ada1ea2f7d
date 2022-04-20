@@ -1,0 +1,31 @@
+package study01;
+
+public class Car {
+	
+	String Company = "Hyundai";
+	String Model;
+	int m_s;
+	int c_s;
+	int gas;
+
+	
+	Car(String m , int c){
+		this.m_s = m;
+		this.c_s = c;
+	}
+	
+	void setGas(int setGas) {
+		gas = setGas;
+	}
+	
+	boolean isEmptyGas() {
+		if(gas == 0) {
+			System.out.println("No Gas");
+			return true;
+		}else {
+			System.out.println("Enough Gas");
+			return false;
+		}
+	}
+
+}
